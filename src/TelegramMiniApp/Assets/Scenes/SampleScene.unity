@@ -867,6 +867,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2644a757b7f7bce49bbcd417e34c4e52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Button: {fileID: 955080586}
+  ButtonRectTransform: {fileID: 955080585}
+  WindowRectTransform: {fileID: 1454496349}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,8 +1,10 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Clicker : MonoBehaviour
 {
+    public TMP_Text ScreenText; 
     public Button Button;
     public RectTransform ButtonRectTransform;
     public RectTransform WindowRectTransform;
@@ -10,6 +12,7 @@ public class Clicker : MonoBehaviour
     private void Start()
     {
         Button.onClick.AddListener(OnClick);
+        ScreenText.text = $"{Screen.width}x{Screen.height}";
     }
 
     private void OnClick()
